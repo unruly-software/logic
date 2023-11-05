@@ -1,3 +1,3 @@
-export const add = (a: number, b: number) => {
-  return a + b
-}
+export * as op from './Operator'
+
+export { Rule } from './Rule'
